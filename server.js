@@ -9,7 +9,6 @@ res.send();
 });
 
 app.get('/read', (req,res,next) => {
-req.cookies;
 res.send(req.cookies);
 });
 
